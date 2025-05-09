@@ -13,12 +13,8 @@ class Time
         min = b;
         sec = c;
     }
-    Time()
-    {
-        hr = 0;
-        min = 0;
-        sec = 0;
-    }
+    Time() {}
+    
     Time add(Time pobj)
     {
         Time temp;
